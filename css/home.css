@@ -1,0 +1,61 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+    background-image: linear-gradient(315deg, #673AB7 0%, #512DA8 74%);
+    position: relative;
+    color: whitesmoke;
+}
+
+
+.navbar-brand{
+    /* position: absolute; */
+}
+
+.navbar-brand img{
+    width: 130px;
+}
+
+nav li a{
+    color: lightgray;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    color: whitesmoke;
+    transition: 0.5s;
+    margin: 0px 10px;
+}
+
+
+.items{
+    /* position: absolute; */
+    right: 0;
+    margin-right: 50px;
+}
+nav button{
+    color: whitesmoke;
+}
+
+.new-post{
+    background-color: white;
+    background-image: linear-gradient(315deg, #673AB7 0%, #512DA8 74%);
+    position: relative;
+    color: whitesmoke;
+}
+
+.card-header{
+    background-color: white;
+    background-image: linear-gradient(315deg, #673AB7 0%, #512DA8 74%);
+    color: whitesmoke;
+}
+
+.card-footer{
+    background-color: white;
+}

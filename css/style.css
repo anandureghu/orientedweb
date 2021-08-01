@@ -1,0 +1,48 @@
+.background{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,.5)), url('images/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+
+.page-title{
+    color: white;
+}
+
+#btn-login, #btn-register{
+    background-color: #512DA8;
+    background-image: linear-gradient(315deg, #673AB7 0%, #512DA8 74%);
+    border-radius: 150px;
+    transition: 0.5s;
+    width: 200px;
+}
+
+#btn-login, #btn-register:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.form{
+    margin-bottom: 150px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar-brand img{
+    width: 140px;
+    vertical-align: middle;
+    color: white;
+}
+
+.form::after{
+    content: " ";
+    display: block;
+    height: 100px;
+}
